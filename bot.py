@@ -1,4 +1,4 @@
-TOKEN = '8305534679:AAGHS4zzHKhtllcW0rhOXjzUPOpdxtgxet0'
+TOKEN = 'Bot Token From BotFather'
 BOT_USERNAME = '@SimplySimpleBot'
 
 from telegram import Update
@@ -46,4 +46,5 @@ if __name__ == '__main__':
     app.add_error_handler(error)
 
     print('Bot is running...')
+
     app.run_polling(poll_interval=3)
